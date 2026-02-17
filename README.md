@@ -28,8 +28,10 @@ Tools Used: Python 3, socket (built-in), requests, itertools.
 **Ethical Note:** Use only on authorized systems. Unauthorized testing is illegal.
 
 ## Output Examples
-![Port Scan Output] 
-![Brute-Force Output]([Paste bruteforce URL here])
+![Port Scan Output] https://private-user-images.githubusercontent.com/253296696/551090793-f29a4a5c-ae87-4f08-ae47-ed211c546ed1.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzEzNDc3MDksIm5iZiI6MTc3MTM0NzQwOSwicGF0aCI6Ii8yNTMyOTY2OTYvNTUxMDkwNzkzLWYyOWE0YTVjLWFlODctNGYwOC1hZTQ3LWVkMjExYzU0NmVkMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIxN1QxNjU2NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOWY5MjY3Y2Q1N2EyNjg4MGVhM2IxOGM3NTcwNjJmZjY3OTkyZTE0N2M2MWM2YmQwZDNlZTQzNTI3YWUwMjQxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CwiaHE66ieEiLQkiJ04sdP3L7mR6hqRNZCWHnK5SvVM
+
+
+![Brute-Force Output] https://private-user-images.githubusercontent.com/253296696/551091075-3be2fa62-5c3a-452d-bfba-7d836a281ff3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzEzNDc3MDksIm5iZiI6MTc3MTM0NzQwOSwicGF0aCI6Ii8yNTMyOTY2OTYvNTUxMDkxMDc1LTNiZTJmYTYyLTVjM2EtNDUyZC1iZmJhLTdkODM2YTI4MWZmMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIxN1QxNjU2NDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mNjg0MDEyOTdkNzg3NDU3MzE1MTQ0MTI1YmFjMmY5MzhiZmI5YjY4MTFkMGY1YWNlYTNiZDM2MDhhOTg0ZGZlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.BRSnM70s_wErgRczaNDKb6xrcCc6IEDsMBBVVRDbduI
 
 ## Explanation
 Penetration testing, or pen-testing, is a simulated cyber attack to identify vulnerabilities in systems before malicious hackers exploit them. This toolkit provides hands-on experience in two key phases: reconnaissance (port scanning) and exploitation (brute-forcing). The port scanner module uses Python's socket library to iterate through port ranges, attempting TCP connections with a short timeout to detect open ports efficiently. Open ports indicate running services, such as HTTP on 80 or SSH on 22, which could be potential entry points. For instance, scanning localhost after starting a simple server reveals port 8000 as open, highlighting how attackers map network footprints.
@@ -40,8 +42,6 @@ Modularity is achieved by separating functions into files, imported in main.py, 
 
 In cyber security, such tools aid red teams in vulnerability assessments, helping organizations strengthen defenses. Limitations include single-threaded scanning (slow for large ranges) and basic brute-forcing without rate-limiting evasion. Improvements could involve multithreading with concurrent.futures or integrating APIs for vulnerability databases. This project deepened my understanding of offensive security, reinforcing defensive strategies like strong passwords and firewalls. By building this, I learned Python's networking capabilities and the importance of secure coding practices. (Word count: 450)
 
-## Code Snippets
-[Include brief code examples or full pastes if desired.]
 
 ## Limitations and Future Work
 - Basic; not for production.
